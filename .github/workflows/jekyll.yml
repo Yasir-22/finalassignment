@@ -32,5 +32,5 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deeploying using surge
-        run: surge ./ madiha.surge.sh --token ${{ secrets.YAISR_TOKEN }}
+        run: surge ./ thoughtful-women.surge.sh  --token ${{ secrets.YAISR_TOKEN }}
 
